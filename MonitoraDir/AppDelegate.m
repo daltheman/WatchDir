@@ -27,6 +27,7 @@ void file_events_callback(ConstFSEventStreamRef streamRef, void *userData, size_
             NSLog(@"Renomeou");
         }
         else if (flags & kFSEventStreamEventFlagItemXattrMod) {
+            // Teste
             NSLog(@"Alterou permissoes");
         }
     }
