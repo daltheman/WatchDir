@@ -26,6 +26,9 @@ void file_events_callback(ConstFSEventStreamRef streamRef, void *userData, size_
         else if (flags & kFSEventStreamEventFlagItemRenamed) {
             NSLog(@"Renomeou");
         }
+        else if (flags & kFSEventStreamEventFlagItemXattrMod) {
+            NSLog(@"Alterou permissoes");
+        }
     }
     
 /*
