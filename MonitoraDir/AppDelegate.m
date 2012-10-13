@@ -111,6 +111,7 @@ Denotes a special event sent when a volume is unmounted underneath one of the pa
     FSEventStreamStart(streamRef);
 }
 
+// Quando aplicativo for encerrado, iremos parar e invalidar o FSEvent
 -(NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender {
     FSEventStreamStop(streamRef);
     FSEventStreamInvalidate(streamRef);
