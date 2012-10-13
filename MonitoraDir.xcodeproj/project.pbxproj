@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3A424B1628EA8F0005E0C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A424A1628EA8F0005E0C4 /* Cocoa.framework */; };
+		9F3A42551628EA8F0005E0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A42531628EA8F0005E0C4 /* InfoPlist.strings */; };
+		9F3A42571628EA8F0005E0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A42561628EA8F0005E0C4 /* main.m */; };
+		9F3A425B1628EA8F0005E0C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A42591628EA8F0005E0C4 /* Credits.rtf */; };
+		9F3A425E1628EA8F0005E0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A425D1628EA8F0005E0C4 /* AppDelegate.m */; };
+		9F3A42611628EA900005E0C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A425F1628EA900005E0C4 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F3A42461628EA8F0005E0C4 /* MonitoraDir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonitoraDir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F3A424A1628EA8F0005E0C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		9F3A424D1628EA8F0005E0C4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		9F3A424E1628EA8F0005E0C4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9F3A424F1628EA8F0005E0C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F3A42521628EA8F0005E0C4 /* MonitoraDir-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonitoraDir-Info.plist"; sourceTree = "<group>"; };
+		9F3A42541628EA8F0005E0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F3A42561628EA8F0005E0C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F3A42581628EA8F0005E0C4 /* MonitoraDir-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonitoraDir-Prefix.pch"; sourceTree = "<group>"; };
+		9F3A425A1628EA8F0005E0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		9F3A425C1628EA8F0005E0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9F3A425D1628EA8F0005E0C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9F3A42601628EA900005E0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F3A42431628EA8F0005E0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3A424B1628EA8F0005E0C4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F3A423B1628EA8F0005E0C4 = {
+			isa = PBXGroup;
+			children = (
+				9F3A42501628EA8F0005E0C4 /* MonitoraDir */,
+				9F3A42491628EA8F0005E0C4 /* Frameworks */,
+				9F3A42471628EA8F0005E0C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F3A42471628EA8F0005E0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A42461628EA8F0005E0C4 /* MonitoraDir.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F3A42491628EA8F0005E0C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A424A1628EA8F0005E0C4 /* Cocoa.framework */,
+				9F3A424C1628EA8F0005E0C4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F3A424C1628EA8F0005E0C4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A424D1628EA8F0005E0C4 /* AppKit.framework */,
+				9F3A424E1628EA8F0005E0C4 /* CoreData.framework */,
+				9F3A424F1628EA8F0005E0C4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		9F3A42501628EA8F0005E0C4 /* MonitoraDir */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A425C1628EA8F0005E0C4 /* AppDelegate.h */,
+				9F3A425D1628EA8F0005E0C4 /* AppDelegate.m */,
+				9F3A425F1628EA900005E0C4 /* MainMenu.xib */,
+				9F3A42511628EA8F0005E0C4 /* Supporting Files */,
+			);
+			path = MonitoraDir;
+			sourceTree = "<group>";
+		};
+		9F3A42511628EA8F0005E0C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F3A42521628EA8F0005E0C4 /* MonitoraDir-Info.plist */,
+				9F3A42531628EA8F0005E0C4 /* InfoPlist.strings */,
+				9F3A42561628EA8F0005E0C4 /* main.m */,
+				9F3A42581628EA8F0005E0C4 /* MonitoraDir-Prefix.pch */,
+				9F3A42591628EA8F0005E0C4 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F3A42451628EA8F0005E0C4 /* MonitoraDir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F3A42641628EA900005E0C4 /* Build configuration list for PBXNativeTarget "MonitoraDir" */;
+			buildPhases = (
+				9F3A42421628EA8F0005E0C4 /* Sources */,
+				9F3A42431628EA8F0005E0C4 /* Frameworks */,
+				9F3A42441628EA8F0005E0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonitoraDir;
+			productName = MonitoraDir;
+			productReference = 9F3A42461628EA8F0005E0C4 /* MonitoraDir.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F3A423D1628EA8F0005E0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Danilo Altheman";
+			};
+			buildConfigurationList = 9F3A42401628EA8F0005E0C4 /* Build configuration list for PBXProject "MonitoraDir" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F3A423B1628EA8F0005E0C4;
+			productRefGroup = 9F3A42471628EA8F0005E0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F3A42451628EA8F0005E0C4 /* MonitoraDir */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F3A42441628EA8F0005E0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3A42551628EA8F0005E0C4 /* InfoPlist.strings in Resources */,
+				9F3A425B1628EA8F0005E0C4 /* Credits.rtf in Resources */,
+				9F3A42611628EA900005E0C4 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F3A42421628EA8F0005E0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3A42571628EA8F0005E0C4 /* main.m in Sources */,
+				9F3A425E1628EA8F0005E0C4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F3A42531628EA8F0005E0C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3A42541628EA8F0005E0C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F3A42591628EA8F0005E0C4 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3A425A1628EA8F0005E0C4 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		9F3A425F1628EA900005E0C4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F3A42601628EA900005E0C4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F3A42621628EA900005E0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9F3A42631628EA900005E0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9F3A42651628EA900005E0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonitoraDir/MonitoraDir-Prefix.pch";
+				INFOPLIST_FILE = "MonitoraDir/MonitoraDir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F3A42661628EA900005E0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MonitoraDir/MonitoraDir-Prefix.pch";
+				INFOPLIST_FILE = "MonitoraDir/MonitoraDir-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F3A42401628EA8F0005E0C4 /* Build configuration list for PBXProject "MonitoraDir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3A42621628EA900005E0C4 /* Debug */,
+				9F3A42631628EA900005E0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F3A42641628EA900005E0C4 /* Build configuration list for PBXNativeTarget "MonitoraDir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F3A42651628EA900005E0C4 /* Debug */,
+				9F3A42661628EA900005E0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F3A423D1628EA8F0005E0C4 /* Project object */;
+}
