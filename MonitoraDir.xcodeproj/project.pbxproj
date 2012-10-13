@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38FE16DB1629D5E600E71BE3 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38FE16DA1629D5E600E71BE3 /* README.txt */; };
 		9F3A424B1628EA8F0005E0C4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A424A1628EA8F0005E0C4 /* Cocoa.framework */; };
 		9F3A42551628EA8F0005E0C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A42531628EA8F0005E0C4 /* InfoPlist.strings */; };
 		9F3A42571628EA8F0005E0C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A42561628EA8F0005E0C4 /* main.m */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38FE16DA1629D5E600E71BE3 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		9F3A42461628EA8F0005E0C4 /* MonitoraDir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonitoraDir.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3A424A1628EA8F0005E0C4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		9F3A424D1628EA8F0005E0C4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -88,6 +90,7 @@
 			children = (
 				9F3A425C1628EA8F0005E0C4 /* AppDelegate.h */,
 				9F3A425D1628EA8F0005E0C4 /* AppDelegate.m */,
+				38FE16DA1629D5E600E71BE3 /* README.txt */,
 				9F3A425F1628EA900005E0C4 /* MainMenu.xib */,
 				9F3A42511628EA8F0005E0C4 /* Supporting Files */,
 			);
@@ -160,6 +163,7 @@
 				9F3A42551628EA8F0005E0C4 /* InfoPlist.strings in Resources */,
 				9F3A425B1628EA8F0005E0C4 /* Credits.rtf in Resources */,
 				9F3A42611628EA900005E0C4 /* MainMenu.xib in Resources */,
+				38FE16DB1629D5E600E71BE3 /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +299,7 @@
 				9F3A42661628EA900005E0C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
