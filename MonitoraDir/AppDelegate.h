@@ -7,8 +7,12 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+#import <CoreServices/CoreServices.h>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    FSEventStreamRef streamRef;
+    FSEventStreamContext *streamContext;
+    NSNumber *lastEventID;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 

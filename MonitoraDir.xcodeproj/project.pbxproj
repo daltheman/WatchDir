@@ -13,6 +13,7 @@
 		9F3A425B1628EA8F0005E0C4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A42591628EA8F0005E0C4 /* Credits.rtf */; };
 		9F3A425E1628EA8F0005E0C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F3A425D1628EA8F0005E0C4 /* AppDelegate.m */; };
 		9F3A42611628EA900005E0C4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F3A425F1628EA900005E0C4 /* MainMenu.xib */; };
+		9F3A42681628EA9E0005E0C4 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A42671628EA9E0005E0C4 /* CoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		9F3A425C1628EA8F0005E0C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F3A425D1628EA8F0005E0C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9F3A42601628EA900005E0C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9F3A42671628EA9E0005E0C4 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F3A42681628EA9E0005E0C4 /* CoreServices.framework in Frameworks */,
 				9F3A424B1628EA8F0005E0C4 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		9F3A423B1628EA8F0005E0C4 = {
 			isa = PBXGroup;
 			children = (
+				9F3A42671628EA9E0005E0C4 /* CoreServices.framework */,
 				9F3A42501628EA8F0005E0C4 /* MonitoraDir */,
 				9F3A42491628EA8F0005E0C4 /* Frameworks */,
 				9F3A42471628EA8F0005E0C4 /* Products */,
